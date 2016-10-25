@@ -20,22 +20,27 @@ $ cd LinearSystemsExamples
 $ virtualenv slenv
 ```
 
-4 - Atualizar o pip do virtualenv
+4 - Criar um virtualenv (para adicionar as bibliotecas)
+```
+$ source slenv/bin/activate
+```
+
+5 - Atualizar o pip do virtualenv
 ```
 $ pip install --upgrade pip
 ```
 
-5 - Instalar as bibliotecas listadas no arquivo requirements.txt
+6 - Instalar as bibliotecas listadas no arquivo requirements.txt
 ```
 $ pip install -r requirements.txt
 ```
 
-6 - Ir para o diretorio correto
+7 - Ir para o diretorio correto
 ```
 $ cd Tutorials
 ```
 
-7 - Carregar e fazer os plots de analise
+8 - Carregar e fazer os plots de analise
 ```
 $ jupyter notebook
 ```
